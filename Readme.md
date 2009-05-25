@@ -1,18 +1,11 @@
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://github.com/toolmantim/states.js/raw/master/states.js"></script>
-
 states.js
 =========
 
-Something we use at [AR](http://agencyrainford.com/) before we lay down backend code, states.js communicates different states in your high-fi HTML/JS mockups in 50 lines of simple jQuery. An alternative to beasts 
+Something we use at [AR](http://agencyrainford.com/) before we lay down backend code, states.js communicates different states in your high-fi HTML/JS mockups in 50 lines of simple jQuery.
 
 Simply add a `<div class="state" title="Logged in">` around the bit of UI you want to hide/show depending on state and you'll get a state switcher position fixed in the bottom right corner.
 
 Requires [jQuery](http://jquery.com/) and reads like poetry when used with [HAML](http://haml.hamptoncatlin.com/).
-
-<div class="state" title="Mr T">
-  <p><a href="http://www.youtube.com/watch?v=7_rBidCkJxo"><img src="http://img.youtube.com/vi/7_rBidCkJxo/default.jpg?h=60&w=80&sigh=__ln2ZuG0fbeFSNyZej5xCbo6F0rY=" alt="Mr T says Treat your mother right!" /></a></p>
-</div>
 
 Usage
 -----
