@@ -3,7 +3,7 @@ states.js
 
 Something we use at [AR](http://agencyrainford.com/) before we lay down backend code, states.js communicates different states in your high-fi HTML/JS mockups in 50 lines of simple jQuery.
 
-Simply add a `<div class="state" title="Logged in">` and you'll get a state selector position fixed in the bottom right corner.
+Simply add a `<div class="state" title="Logged in">` around the bit of UI you want to hide/show depending on state and you'll get a state switcher position fixed in the bottom right corner.
 
 Requires [jQuery](http://jquery.com/) and reads like poetry when used with [HAML](http://haml.hamptoncatlin.com/).
 
