@@ -8,8 +8,9 @@
       var stateName = this.title || "none",
           stateNode = $(this);
       unique[stateName] || (unique[stateName] = $("<a href='#'>" + stateName + "</a>").click(function () {
+        $(this).trigger("stateChanged", $(this).text());
         stateNodes.hide();
-        stateNode.show();
+        stateNodes.filter(function() { return $(this).attr("title") == stateName; }).show();
         return false;
       }).appendTo(stateSelector));
     });
